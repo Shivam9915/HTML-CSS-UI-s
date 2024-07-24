@@ -1,0 +1,11 @@
+// let a=+prompt("enter first number");
+// let b=+prompt("enter sec number");
+// let sum=(a+b);
+// console.log(`the sum of ${a} and ${b} is ${sum}`);
+let nam= prompt("Whats your name?");
+let chemistry= +prompt("enter the marks of chemistry");
+let maths=+prompt("enter the marks of maths");
+let physics=+prompt("enter the marks of physics");
+let total= chemistry+maths+physics;
+let percentage=total/300*100;
+console.log(`Hello ${nam} your total score is ${total} with his percentage is ${percentage}`);
