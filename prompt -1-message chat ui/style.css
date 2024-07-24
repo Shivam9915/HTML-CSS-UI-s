@@ -1,0 +1,371 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+.main{
+    height:90vh;
+    width:75%;
+    background-color:rgb(160, 21, 62);
+    margin:30px auto;
+    padding-top:40px;
+
+}
+.inner{
+    height:78vh;
+    width:98%;
+    background-color: rgb(49, 54, 63);
+    border-radius: 10px;
+    margin:auto;
+    position:relative;
+    
+
+}
+.left-col{
+    height:100%;
+    width:17%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:rgb(118, 171, 174);
+    text-align: center;
+    border-radius: 10px 10px 0 10px;
+
+}
+.left-col i{
+    color:#555;
+}
+.col1{
+    padding-top:18px;
+}
+
+
+.col1 .profile{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+}
+.mentor{
+    color:rgb(21, 184, 248);
+    font-weight:600;
+}
+.col2{
+    margin-top:10px;
+    text-align: left;
+    padding-left:12px;
+}
+
+.col2 span{
+    margin-right:10px;
+        
+}
+.col3{
+    margin-top:10px;
+}
+.col3 h4{
+    margin-bottom:10px;
+    text-align: left;
+    padding-left:10px;
+}
+.col3 span{
+    margin-right:10px;
+}
+.col3>.activites{
+    padding:5px 9px;
+    margin:2px 4px;
+    border-radius:4px;
+    text-align: left;
+    }
+#message{
+
+   border:1px solid white;
+   background-color:#fff;
+}
+#message i{
+   color:rgb(22, 187, 252);
+   z-index:1000;
+}
+
+
+#entity{
+    margin-left:19px;
+    color:#ff6347;
+
+}
+/* .................................................... */
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:83%;
+    border-bottom:1px solid black;
+    position:absolute;
+    top:0;
+    left:17%;
+}
+
+.nav>h3{
+    padding-left:10px;
+}
+.icons{
+    /* background-color: #555; */
+    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.icons img{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    margin-top: 4px;
+
+}
+.icons span{
+    margin-right:15px;
+    color:black;
+
+    
+}
+/* ............................ */
+.contacts{
+    height:92%;
+    width:33%;
+    background-color:hsla(0, 0%, 100%, 0.829);
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:8%;
+    left:17%;
+
+
+}
+.search{
+    height:30px;
+    width:320px;
+    background-color:#52515148;
+    margin-bottom:1px;
+}
+.search i{
+    padding:8px 10px;
+    margin-left:3px;
+}
+.recents {
+    background-color:white;
+    border-bottom: 1px solid gray;
+    height: 30px;
+    width:320px;
+}
+.recents i{
+    padding-left:5px;
+
+}
+.recents h5{
+    padding:8px 10px;
+    
+}
+/* ..................................... */
+.profile-chats{
+    display:flex;
+    width:320px;
+    text-align:center;
+    border-bottom:1px solid rgba(0, 0, 0, 0.089);
+    background-color: rgb(238, 238, 238)
+
+}
+.profile1{
+    height:48px;
+    max-width:314px;
+    /* background-color: #52515148; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+.profile1 h5{
+    padding-left:13px;
+    margin-top: 4px;
+}
+.profile1 h5 span{
+    margin-left:98px;
+    color:#555;
+}
+.profile1 p{
+    font-size: 13px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.76);
+    padding-left:13px;
+    padding-top:6px;
+}
+.profile-chats img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-top:5px;
+    margin-right:1px;
+    margin-left:1px;
+}
+/* '''''''''''''''''''''''''''''''''''''''''''''''' */
+.chat-section{
+    background-color:rgba(99, 96, 96, 0.185);
+    /* background-color: #ff4747; */
+    display: flex;
+    flex-direction: column;
+    height:72vh;
+    width:50%;
+    position:absolute;
+    top:8%;
+    left:50%;
+
+}
+.person-info{
+    display: flex;
+    align-items: center;
+    height:60px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.219);
+    position:relative;
+    padding-left:10px;
+
+}
+.person-info img{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+
+}
+.person-info h5{
+    margin-left:10px;
+    padding-left:5px;
+
+}
+.person-info p{
+    font-weight:600;
+    color:rgb(5, 172, 238);
+    margin-left:5px;
+}
+.on{
+    position:absolute;
+    left:10%;
+    bottom:10%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.on h5{
+    color:#555;
+}
+.on span{
+    color:green;
+}
+.today{
+    height:23px;
+    width:70px;
+    padding:3px 13px;
+    position:absolute;
+    background-color:#fff;
+    top:15%;
+    left:45%;
+}
+.sender1{
+    position:absolute;
+    background-color: #fff;
+    height:59px;
+    width: 400px;
+    top:23%;
+    margin-left:10px;
+    padding-left:13px;
+    padding-top:6px;
+    border-radius:9px;
+
+}
+.sender1 span p{
+    font-size: 10px;
+    font-weight: 400;
+
+}
+.sender2{
+    position:absolute;
+    background-color: #fff;
+    height:45px;
+    width: 160px;
+    top:38%;
+    margin-left:10px;
+    padding-left:13px;
+    padding-top:6px;
+    border-radius:9px;
+
+}
+.sender2 span p{
+
+    font-size: 10px;
+    font-weight: 400;
+
+}
+
+.sender2 img{
+    height:10px;
+    width:25px;
+}
+.receiver1{
+    position:absolute;
+    background-color:rgb(12, 185, 253);
+    height:43px;
+    width: 380px;
+    top:55%;
+    left:19%;
+    margin-left:10px;
+    padding-left:13px;
+    padding-top:6px;
+    border-radius:9px
+
+}
+.receiver1 span{
+    font-size: 10px;
+    font-weight: 400;
+}
+.receiver2{
+    position:absolute;
+    background-color:rgb(12, 185, 253);
+    height:45px;
+    width: 330px;
+    top:66%;
+    left:29%;
+    margin-left:10px;
+    padding-left:13px;
+    padding-top:6px;
+    border-radius:9px
+
+
+}
+.receiver2 span{
+    font-size: 10px;
+    font-weight: 400;
+
+}
+.writing{
+    position:absolute;
+    background-color: #fff;
+    height:49px;
+    width: 450px;
+    bottom:3%;
+    left:3%;
+    margin-left:10px;
+    padding-left:15px;
+    padding-top:14px;
+    border-radius:9px;
+
+}
+.writing span{
+    margin-left:105px;
+    margin-right:15px;
+    
+    color:rgb(17, 102, 136);
+}
+.writing span span{
+    color:#555;
+}
